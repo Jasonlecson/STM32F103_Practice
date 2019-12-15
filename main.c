@@ -65,13 +65,13 @@
 //#include "task.h"
 //#include "queue.h"
 
-int i;
+unsigned long i;
 
 int main( void )
 {
 	while(1)
 	{
-		for(i = 1;i < 100000000;i++)
+		for(i = 1;i < 100000;i++)
 		{}
 	}
 }

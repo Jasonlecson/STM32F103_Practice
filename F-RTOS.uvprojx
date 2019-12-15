@@ -397,13 +397,6 @@
         </Group>
         <Group>
           <GroupName>SYSTEM</GroupName>
-          <Files>
-            <File>
-              <FileName>STM32F10x.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\FreeRTOS\FreeRTOSv10.2.1_191129\FreeRTOS\Demo\CORTEX_STM32F103_Keil\STM32F10x.s</FilePath>
-            </File>
-          </Files>
         </Group>
         <Group>
           <GroupName>HRDWARE</GroupName>
@@ -443,6 +436,11 @@
               <FileName>timers.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\FreeRTOS\timers.c</FilePath>
+            </File>
+            <File>
+              <FileName>STM32F10x.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\STM32F10x.s</FilePath>
             </File>
           </Files>
         </Group>
